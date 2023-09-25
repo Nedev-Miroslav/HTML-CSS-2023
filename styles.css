@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(105, 201, 198);
+    color: #ffffff;
+   
+}
+
+p{
+    color: #000;
+    font-size: 16px;
+}
+
+ul li {
+    color: blue;
+}
+
+a{
+    color: #ffffff;
+}
+
+a[href^="https://a"]{
+    color:green
+}
+
+h1{
+    color: green;
+}
+
+.box{
+    background-color: #ffffff;
+}
+
+.warning{
+    color: red;
+}
+
+#headerMyHtmlDocTitle {
+    font-size: 66px;
+    color: #000;
+}
+
+#Individualparagraph{
+    color: peru;
+}
