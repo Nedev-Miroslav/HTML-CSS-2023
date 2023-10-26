@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    margin: 4em;
+}
+
+
+ul{
+    display: inline-block;
+}
+
+
+ li {
+    list-style: none outside;
+    display: inline-block;
+    margin: 0.5em;
+}
+
+a{
+    border: 1px solid #DDD;
+    padding: 1em;
+    border-radius: 50%;
+    background: #DDD;
+}
+
+i[class $="facebook"]:hover{
+   color: blue;
+}
+
+i[class $="twitter"]:hover{
+    color: skyblue;
+ }
+
+ i[class $="plus"]:hover{
+    color: tomato;
+ }
+
+ 
+i[class $="linkedin"]:hover{
+    color: lightblue;
+ }
+
+ i[class $="instagram"]:hover{
+    color: lightblue;
+ }
+
+
+
+
+/* 
+•	All you need for your HTML are ul, li and a tags
+•	Change the ul display property to inline-block
+•	Remove list items default style
+•	Each a tag must have border-radius: 50%;
+•	Check the provided screenshots to see the hover effects
+
+*/

@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Helvetica", sans-serif;
+
+}
+
+main, header{
+    max-width: 75%;
+}
+
+
+body {
+    margin: 4em;
+}
+
+h1 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  
+
+}
+
+
+h1 {
+    padding-top: 1em;
+    padding-bottom: 0.5rem;
+    font-weight: 300;
+}
+
+
+p, ul, ol, h2, h3 {
+    padding-top: 1.5rem;
+}
+
+
+
+header {
+    margin-top: 6em;
+    margin-bottom: 2em;
+    position: relative;
+    border-bottom: 3px solid black;
+    max-width: 100%;
+
+}
+
+header a {
+
+    text-decoration: none;
+    color: green;
+    padding-left: 1.6em;
+    
+}
+
+
+.main-nav{
+    position: absolute;
+    top: 1.5em;
+    right: 0em;
+
+}
+
+.main-nav li{
+    list-style: none outside;
+   
+    display: block;
+    }
+
+.main-nav > ul > li{
+    display: inline-block;
+    margin: 0.2em 0;
+   
+}
+
+aside{
+    position: absolute;
+    top: 12.5em;
+    right: 10em;
+}
+
+.quote{
+    position: absolute;
+    max-width: 30%;
+    max-height: 75%;
+    top: 45.5em;
+    right: 27em;
+    border-left: 2px solid grey;
+    padding-left: 5em;
+    color: grey;
+     
+}
+
+blockquote p:nth-child(2){
+    float: right;
+    
+}
+
+.nextToQuote{
+   max-width: 50%;
+}   
+
+
+
+img{
+    padding: 0.3em;
+    background: white;
+    border: 3px solid black;
+    padding: 0.5em;
+    box-shadow: 0 0 1em 0.3em rgb(0, 0, 0, 0.3);
+}
+
+.align-right{
+    display: block;
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.align-left{
+    display: block;
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+aside{
+    padding-left: 2em;
+}
+
+aside ul li{
+    list-style-position: inside;
+    padding-left: 1.5em;
+    
+}
+
+aside ul {
+    padding-bottom: 1em;
+    list-style-type: square;
+
+}
+
+aside a{
+    text-decoration: none;
+    color: green;
+}
