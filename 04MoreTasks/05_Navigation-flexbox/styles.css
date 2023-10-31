@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body{
+    margin: 5em;
+}
+
+h2{
+    font-family: Georgia, serif;
+    padding-top: 0.5em;
+}
+
+
+header{
+    border-bottom: 3px solid black;
+    display: flex;
+    padding-bottom: 2em;
+    margin-bottom: 1em;
+}
+
+h1{
+    padding-top: 0.5em;
+}
+
+
+
+p{
+    padding-top: 1em;
+}
+
+nav{
+    margin-left: auto;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 2em
+}
+
+
+nav ul li {
+
+    display: block;
+    list-style-type: none;
+}
+
+nav a {
+    color: rgb(0,153,0);
+    text-decoration: none;
+}
