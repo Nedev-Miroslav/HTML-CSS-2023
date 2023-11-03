@@ -1,0 +1,15 @@
+
+body{
+        container-type: inline-size
+}
+
+@container (max-width: 600px) {
+        body *{
+        width: 80vw; 
+        }
+
+        img {
+        width: 80vw;
+        height:70vh;    
+        }
+}
