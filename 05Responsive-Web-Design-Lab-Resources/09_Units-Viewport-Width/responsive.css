@@ -1,0 +1,10 @@
+
+body{
+        container-type: inline-size
+}
+
+@container (max-width: 600px) {
+        body *{
+        width: 95vw; 
+        }
+}
