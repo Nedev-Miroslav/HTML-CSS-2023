@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 2em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #CCC;
+}
+
+th, td {
+    padding: 0.5em 0.7em;
+}
+
+table thead th {
+    background: black;
+    color: white;
+    text-align: start;
+}
+
+table tbody tr:nth-child(odd) td {
+    background: #EEE;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+
+@media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+
+    table caption {
+        font-size: 1.5em;
+      }
+      
+      table thead {
+        border: none;
+        display: block;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+      
+      table tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: 0.5em;
+      }
+      
+      table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: 1em;
+        text-align: left;
+      }
+
+      td:nth-of-type(1):before { 
+        content: "First Name";
+        padding-right: 1em;
+        font-weight: bold; 
+      }
+      td:nth-of-type(2):before { 
+        content: "Last Name";
+        padding-right: 1em;
+        font-weight: bold;  
+      }
+      td:nth-of-type(3):before { 
+        content: "Job Title";
+        padding-right: 1em;
+        font-weight: bold;  
+      }
+
+
+
+}
