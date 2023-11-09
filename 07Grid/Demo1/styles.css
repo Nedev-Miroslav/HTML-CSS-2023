@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.site {
+    width: 60em;
+    background: #ccc;
+    margin: 1em;
+}
+
+.card{
+    width: 100%;
+    text-align: center;
+    background: lightseagreen;
+    padding: 6em 2em;
+    border: 1px solid lightblue;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1em;
+}
