@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Great+Vibes&family=Oswald&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header .bluePart {
+    color: #327DC4;
+}
+
+.container {
+    max-width: 80em;
+    margin: 0 auto;
+}
+
+header {
+
+    margin: 2em 0 1em 0;
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 0.8em;
+}
+
+.card {
+    max-width: 25em;
+    aspect-ratio: 16/9;
+    background: #819DAF;
+    border-radius: 1em;
+}
+
+.cardImg{
+    max-width: 30%;
+}
+
+.cardImg img {
+    width: 100%;
+    border-radius: 1em;
+}
+
+.cardBody {
+
+    padding: 1em;
+}
+
+.cardBody button {
+    margin-top: 1em;
+    padding: 0.5em 1.5em;
+    background: #327DC4;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2em;
+}
