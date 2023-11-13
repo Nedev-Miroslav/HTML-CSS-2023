@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Inter";
+}
+
+.top-bar{
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+}
+
+body{
+    background: #F3F5FA;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 2em
+}
+
+.sign{
+    display: flex;
+
+    
+}
+
+.sign button{
+    padding: 1em 2em;
+}
+
+.sign button:nth-child(1){
+    border: none;
+    background: white;
+}
+
+.sign button:nth-child(2){
+    background: #ADE2DF;
+    border: none;
+    border-radius: 0.5em;
+}
+
+nav ul li {
+
+    display: block;
+    list-style-type: none;
+}
+
+nav a {
+   color: black;
+    text-decoration: none;
+}
+
+.under-top-bar{
+    padding: 6em 4em;
+    background: #ADE2DF;
+}
+
+.heading{
+    text-align: center;
+    min-width: 100%
+}
+
+h2{
+    font-size: 3.5em;
+    padding-bottom: 0.3em;
+}
+
+.under-top-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.heading-buttons{
+    padding-top: 2em;
+    display: flex;
+    align-items: center;
+    gap: 1em
+
+}
+
+.heading-buttons button{
+    padding: 1.5em 2em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.heading-buttons button i{
+    padding-right: 0.5em;
+    
+}
+
+.rate{
+    display: flex;
+    padding: 4em;
+    justify-content: center;
+    background: white;
+
+}
+
+.rate1{
+    max-width: 25%;
+    text-align: center;
+    border-left: 1px solid #DBDBDB;
+    border-right: 1px solid #DBDBDB;
+}
+
+h3{
+    font-size: 2em;
+    padding-bottom: 0.7em;
+}
+
+.rate1 p{
+    padding-bottom: 4em;
+}
+
+.section-with-phone{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    background: #ADE2DF;
+
+}
+
+.phone1 {
+    display: block;
+    width: 80%;
+    height: auto;
+
+}
+.phone {
+    display: flex;
+    max-width: 35%;
+    border: 1px dashed #98B8B6;
+    justify-content: center;
+}
+
+.section-with-phone-text{
+    width: 30%;
+    padding-top: 7em;
+    padding-left: 4em;
+}
+
+.section-with-phone-text :nth-child(2){
+    padding-top: 0.3em;
+}
+
+.section-with-phone-text :nth-child(3){
+    padding-bottom: 0.5em;
+}
+
+.section-with-phone-text .underline {
+    display: inline-block;
+    margin-top: 1em;
+    border-bottom: 1px solid black ;
+    padding-bottom: 0.5em;
+}
+
+.setup-cost{
+    background: #F3F5FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 0 4em 0;
+}
+
+.setup-button{
+    padding: 1em;
+}
+
+.setup-button button{
+    background: #ADE2DF;
+    padding: 0.6em 1em;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.main-content{
+    display: flex;
+    flex: 1 1 100%;
+    
+    border: 1px solid #DBDBDB;
+    border-radius: 1em;
+    background: white;
+}
+
+.col1, .col2, .col3{
+    max-height: 20%;
+    
+}
+
+.col4{
+    max-width: 36%;
+    background: #ADE2DF;
+    overflow: hidden;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+     
+}
+
+.col1all, .col2all, .col3all, .col4all{
+    margin: 1em;
+    
+}
+
+.col4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1 1 100%;
+}
+
+
+.col3all {
+    padding-right: 2em;
+}
+
+.col1all, .col2all{
+    border-right: 1px solid #DBDBDB;
+    padding-right: 2em;
+}
+
+.col1-up, .col2-up, .col3-up{
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.col1-down, .col2-down, .col3-down{
+    padding-top: 2em;
+}
+
+h5{
+    text-align: center;
+}
+h3{
+    padding-top: 1em;
+}
+
+h3 span{
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 1em;
+    
+}
+
+.col4-down {
+    padding-top: 1em;
+}
+
+.col1-down button, .col2-down button, .col3-down button, .col4-down button{
+    margin-top: 3em;
+    width: 100%;
+    padding: 1em;
+    border-radius: 0.5em;
+
+}
+
+.col1-down button, .col2-down button, .col3-down button{
+    background: #ADE2DF;
+    font-weight: bold;
+
+}
+
+.col4 button{
+    background: black;
+    color: white;
+    font-weight: bold;
+    flex: 1 1 100%;
+    
+}
+
+.black-button button{
+  margin-bottom: 1.2em;
+  padding: 1.2em 15em;
+  border-radius: 0.5em;
+  border: none;
+
+
+}
+
+.col4-down{
+    display: flex; 
+    flex-direction: column;
+    flex: 1 1 100%;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+.line{
+    display: block;
+    padding: 2em;
+    width: 100%;
+    background: #F3F5FA;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 3em;
+}
+footer ul li{
+    display: block;
+}
+
+footer ul {
+    display: flex;
+    gap: 1em
+
+}
