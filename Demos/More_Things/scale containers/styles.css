@@ -1,0 +1,39 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+  }
+  
+  .container {
+    display: flex;
+    width: 50vw;
+    min-height: 30vh;
+    gap: 3.5em;
+  }
+  
+  .item {
+    flex: 1 1 auto;
+    background: #fff;
+    border-radius: 0.3em;
+    border: 1px solid #CCC;
+    transition: all 0.3s ease-in;
+    position: relative;
+    box-shadow: 0 0 2em 0.1em rgba(0,0,0,0.3);
+  }
+  
+  .item:nth-child(2) {
+    scale: 1.2; 
+    z-index: 5;
+  }
+  
+  .container:hover .item {
+    scale: 1;
+  }
+  
+  .container:hover .item:hover {
+    scale: 1.3;
+    z-index: 20;
+    background: lightblue;
+  }
